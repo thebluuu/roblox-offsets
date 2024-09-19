@@ -3,8 +3,7 @@
 
 using System;
 
-public static class Offsets
-{
+public static class Values {
     public const uint RenderToEngine = 0x10;
     public const uint RenderToFakeDataModel = 0x118;
     public const uint FakeDataModelToRealDataModel = 0x198;
@@ -16,7 +15,7 @@ public static class Offsets
     public const uint GameId = 0x160;
     public const uint PlaceId = 0x168;
     public const uint GameLoaded = 0x3b1;
-    public const uint LocalPlayer = 0x100;
+    public const uint LocalPlayer = 0x110;
     public const uint ModelInstance = 0x298;
     public const uint DisplayName = 0x100;
     public const uint UserId = 0x1e8;
@@ -47,16 +46,16 @@ public static class Offsets
     public const uint CanCollide = 0x30b;
     public const uint MeshId = 0x258;
     public const uint TextureId = 0x280;
-    public const uint CurrentCamera = 0x420;
+    public const uint CurrentCamera = 0x410;
     public const uint CameraSubject = 0xc0;
     public const uint CameraPosition = 0xf4;
     public const uint CameraRotation = 0xd0;
     public const uint CameraHeadScale = 0x144;
     public const uint CameraFocus = 0x100;
     public const uint CameraFOV = 0x134;
-    public const uint Brightness = 0x11c;
-    public const uint FogEnd = 0x12c;
-    public const uint GlobalShadows = 0x138;
+    public const uint Brightness = 0x114;
+    public const uint FogEnd = 0x124;
+    public const uint GlobalShadows = 0x130;
     public const uint ClientDimensions = 0x720;
     public const uint ViewMatrix = 0x4b0;
     public const uint AbsolutePosition = 0x100;
